@@ -73,6 +73,9 @@ h1 em, h2 em, h3 em, .brand em { color: var(--purple); font-family: var(--serif)
 .site-header { position: sticky; top: 0; z-index: 20; background: rgba(247,245,239,.94); border-bottom: 1px solid rgba(37,37,37,.09); backdrop-filter: blur(16px); }
 .header-inner { min-height: 83px; display: flex; align-items: center; gap: 28px; }
 .brand { flex: 0 0 auto; display: inline-flex; flex-direction: column; line-height: .9; }
+.brand-with-image { justify-content: center; }
+.brand-logo { width: 118px; height: 64px; object-fit: contain; object-position: center; }
+.brand-fallback { display: none; flex-direction: column; line-height: .9; }
 .brand-name { color: var(--deep-green); font-size: 19px; font-weight: 700; letter-spacing: .13em; }
 .brand-sub { margin-top: 7px; color: var(--purple); font-size: 8px; font-weight: 700; letter-spacing: .29em; }
 .primary-nav { display: flex; flex: 1; align-items: center; justify-content: flex-end; gap: clamp(14px, 1.7vw, 26px); }
